@@ -115,6 +115,16 @@ def show
 end
 ```
 
+Usage in elsewhere
+--------------------
+
+You can also call 'fire' directly from Protocolist module. It can be useful for your rake task, etc.
+Do not forget to provide 'actor' attribute.
+
+```ruby
+Protocolist.fire :sms_received, actor: account.owner, data: {text: message}
+```
+
 Contributing
 ------------
 I would appreciate any help with gem development: pull requests, issue
