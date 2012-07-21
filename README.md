@@ -78,6 +78,8 @@ end
 
 If you run without `:target` option set, it will default to `self`.
 
+For other options see [Custom attributes usage](https://github.com/appstack/protocolist/wiki/Even-more-complicated-usage).
+
 Usage in controllers
 --------------------
 
